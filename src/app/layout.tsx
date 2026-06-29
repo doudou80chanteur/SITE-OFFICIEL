@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { NewsletterPopup } from "@/components/layout/NewsletterPopup";
+import { CookieConsent } from "@/components/layout/CookieConsent";
 import { RouteTheme } from "@/components/layout/RouteTheme";
 import { site } from "@/config/site.config";
 
@@ -57,6 +58,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <NewsletterPopup />
+        <CookieConsent />
       </body>
     </html>
   );

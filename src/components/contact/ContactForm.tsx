@@ -1,45 +1,46 @@
 "use client";
 
-import { useState } from "react";
-
 /**
  * Formulaire de contact (cf. §7.8) : nom, email, objet, message,
- * consentement RGPD. Validation côté client ; côté serveur, anti-spam
- * (hCaptcha / honeypot) et envoi email via API route à brancher.
+ * consentement RGPD. À l'envoi, ouvre l'application de messagerie du
+ * visiteur avec un message pré-rempli adressé à davidswann@live.fr.
  */
-export function ContactForm() {
-  const [sent, setSent] = useState(false);
 
-  if (sent) {
-    return (
-      <div className="rounded-sm border border-line bg-card p-8">
-        <h2 className="text-2xl text-content">Message envoyé</h2>
-        <p className="mt-2 text-sm text-muted">
-          Merci, nous revenons vers vous rapidement.
-        </p>
-      </div>
-    );
+const CONTACT_EMAIL = "davidswann@live.fr";
+
+const SUBJECT_LABELS: Record<string, string> = {
+  booking: "Booking",
+  presse: "Presse",
+  management: "Management",
+  autre: "Autre",
+};
+
+export function ContactForm() {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const name = String(data.get("name") || "").trim();
+    const email = String(data.get("email") || "").trim();
+    const subjectKey = String(data.get("subject") || "autre");
+    const message = String(data.get("message") || "").trim();
+
+    const subject = `${SUBJECT_LABELS[subjectKey] ?? "Contact"} — ${name}`;
+    const body = [
+      `Nom : ${name}`,
+      `Email : ${email}`,
+      `Objet : ${SUBJECT_LABELS[subjectKey] ?? "Contact"}`,
+      "",
+      message,
+    ].join("\n");
+
+    const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
+      subject,
+    )}&body=${encodeURIComponent(body)}`;
+    window.location.href = href;
   }
 
   return (
-    <form
-      className="space-y-5"
-      onSubmit={(e) => {
-        e.preventDefault();
-        // TODO: POST vers /api/contact (Resend/SendGrid) + hCaptcha - cf. §3 / §7.8
-        setSent(true);
-      }}
-    >
-      {/* Honeypot anti-spam */}
-      <input
-        type="text"
-        name="company"
-        tabIndex={-1}
-        autoComplete="off"
-        className="hidden"
-        aria-hidden="true"
-      />
-
+    <form className="space-y-5" onSubmit={handleSubmit}>
       <Field label="Nom" htmlFor="name">
         <input id="name" name="name" required className="field" />
       </Field>
@@ -69,6 +70,15 @@ export function ContactForm() {
       <button type="submit" className="btn-listen">
         Envoyer
       </button>
+
+      <p className="text-xs text-muted">
+        Le bouton ouvre votre application de messagerie avec le message
+        pré-rempli. Vous pouvez aussi écrire directement à{" "}
+        <a href={`mailto:${CONTACT_EMAIL}`} className="link-accent">
+          {CONTACT_EMAIL}
+        </a>
+        .
+      </p>
 
       <style>{`
         .field {

@@ -17,14 +17,21 @@ export default function ContactPage() {
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr]">
           <ContactForm />
           <aside className="space-y-6 text-sm text-muted">
-            {/* TODO: coordonnées management / booking et liens réseaux */}
             <div>
-              <h2 className="eyebrow mb-2 font-sans normal-case">Management</h2>
-              <p>À compléter</p>
+              <h2 className="eyebrow mb-2 font-sans normal-case">Email</h2>
+              <p>
+                <a href="mailto:davidswann@live.fr" className="link-accent">
+                  davidswann@live.fr
+                </a>
+              </p>
             </div>
             <div>
-              <h2 className="eyebrow mb-2 font-sans normal-case">Booking</h2>
-              <p>À compléter</p>
+              <h2 className="eyebrow mb-2 font-sans normal-case">Téléphone</h2>
+              <p>
+                <a href="tel:+33661895928" className="link-accent">
+                  06 61 89 59 28
+                </a>
+              </p>
             </div>
           </aside>
         </div>

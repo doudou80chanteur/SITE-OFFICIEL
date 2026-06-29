@@ -25,7 +25,6 @@ export const mainNav: NavLink[] = [
   { label: "Mes Spectacles", href: "/spectacles" },
   { label: "Musique", href: "/music" },
   { label: "Actualités", href: "/news" },
-  { label: "Campagnes", href: "/campaigns" },
   { label: "Concerts", href: "/appearances" },
   { label: "Contact", href: "/contact" },
 ];
@@ -53,7 +52,6 @@ export const footerNav = {
   catalog: [
     { label: "Musique", href: "/music" },
     { label: "Concerts", href: "/appearances" },
-    { label: "Campagnes", href: "/campaigns" },
   ] as NavLink[],
 };
 

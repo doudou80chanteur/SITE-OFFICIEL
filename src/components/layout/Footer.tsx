@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { footerNav, socials, site } from "@/config/site.config";
 import { SocialIcon } from "./SocialIcon";
+import { CookieSettingsLink } from "./CookieSettingsLink";
 
 /** Footer sombre en colonnes (cf. §5.3). */
 export function Footer() {
@@ -45,9 +46,12 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-shell flex flex-col gap-2 py-6 text-xs text-bone-muted sm:flex-row sm:items-center sm:justify-between">
           <p>© {site.copyrightYear} {site.name}</p>
-          <Link href="/privacy-policy" className="hover:text-white">
-            Confidentialité
-          </Link>
+          <div className="flex gap-6">
+            <CookieSettingsLink className="hover:text-white" />
+            <Link href="/privacy-policy" className="hover:text-white">
+              Confidentialité
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
