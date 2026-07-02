@@ -1,9 +1,12 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SectionHeader } from "./SectionHeader";
-import { recentNews } from "@/config/placeholder-content";
+import { articlesByDate } from "@/config/articles";
 
 /** Section "Actualités récentes" (cf. §7.1). */
 export function RecentNews() {
+  const items = articlesByDate.slice(0, 3);
+
   return (
     <section className="container-shell py-20 md:py-28">
       <SectionHeader
@@ -12,13 +15,20 @@ export function RecentNews() {
         linkHref="/news"
       />
       <div className="grid gap-6 md:grid-cols-3">
-        {recentNews.map((item) => (
-          <Link key={item.slug} href={`/news/${item.slug}`} className="group block">
-            {/* Visuel - image à fournir */}
+        {items.map((item) => (
+          <Link
+            key={item.slug}
+            href={`/news/${item.slug}`}
+            className="group block"
+          >
             <div className="relative aspect-[4/3] overflow-hidden rounded-sm bg-white/5">
-              <div className="absolute inset-0 grid place-items-center text-xs uppercase tracking-[0.2em] text-white/25 transition-transform duration-500 group-hover:scale-105">
-                Image actu
-              </div>
+              <Image
+                src={item.cover}
+                alt={item.coverAlt}
+                fill
+                sizes="(max-width: 768px) 92vw, 30vw"
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
             </div>
             <time className="mt-4 block text-xs uppercase tracking-[0.18em] text-bone-muted">
               {new Date(item.date).toLocaleDateString("fr-FR", {

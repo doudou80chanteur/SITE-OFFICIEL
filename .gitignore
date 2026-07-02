@@ -9,3 +9,7 @@
 next-env.d.ts
 *.tsbuildinfo
 .gstack/
+
+# Fichiers de travail internes (non publiés)
+/Photos David Swann/
+/cahier_des_charges_site_david_swann.pdf

@@ -49,37 +49,36 @@ export default function BiographiePage() {
           Une jeunesse bousculée et introvertie.
           <span className="text-accent">
             {" "}
-            Un leitmotiv de réussite existentiel qui fait ma force.
+            Un leitmotiv de réussite existentiel devenu sa force.
           </span>
         </p>
 
         <div className="mt-14 max-w-3xl">
           <P>
-            Je me prénomme David, je suis originaire de Picardie, dans les
-            Hauts-de-France.
+            David Swann est originaire de Picardie, dans les Hauts-de-France.
           </P>
           <P>
-            Au travers d&apos;une scolarité chaotique due à un certain
-            harcèlement scolaire, et s&apos;ajoutant à un caractère introverti
-            et une timidité envahissante, un paradoxe m&apos;envahit de longues
-            années durant. La victoire du plus faible.
+            Au travers d&apos;une scolarité chaotique, marquée par le
+            harcèlement scolaire, et d&apos;un caractère introverti doublé
+            d&apos;une timidité envahissante, un paradoxe l&apos;habite de
+            longues années durant : la victoire du plus faible.
           </P>
           <P>
-            Cette victoire future qui sera mon leitmotiv et chemin de vie… Une
-            longue route parsemée d&apos;embûches, de joies, de plaisirs divers,
-            dans le dépassement de soi.
+            Cette victoire à venir deviendra son leitmotiv et son chemin de vie
+            — une longue route parsemée d&apos;embûches, de joies et de plaisirs
+            divers, placée sous le signe du dépassement de soi.
           </P>
           <P>
-            Un chemin menant à la vie du spectacle, de la scène et du monde
-            artistique. En un mot : saltimbanque… !
+            Un chemin qui le mène tout droit à la vie du spectacle, de la scène
+            et du monde artistique. En un mot : saltimbanque.
           </P>
           <P>
-            J&apos;ai démarré dans ce milieu du spectacle, derrière le rideau,
-            en tant que technicien de plateau et assistant en régie. Les
-            applaudissements du public et la lumière auprès des artistes me
-            donnent l&apos;envie à mon tour d&apos;être sur la scène. Non plus
-            derrière… mais devant le rideau. Cette attirance croissante me
-            décide d&apos;en faire un métier à part entière.
+            Il débute dans ce milieu derrière le rideau, comme technicien de
+            plateau et assistant en régie. Mais les applaudissements du public
+            et la lumière qui baigne les artistes font naître une envie : monter
+            à son tour sur scène. Non plus derrière… mais devant le rideau.
+            Cette attirance croissante le décide à en faire un métier à part
+            entière.
           </P>
         </div>
 
@@ -87,10 +86,10 @@ export default function BiographiePage() {
 
         <div className="max-w-3xl">
           <P>
-            En intégrant une association locale de ma région mettant en avant de
-            jeunes talents de la chanson, je fais mes premiers pas sur scène. De
-            fêtes locales en événements privés, certaines opportunités se
-            présentent à moi pour assurer mes premières parties :
+            En intégrant une association locale qui met en avant les jeunes
+            talents de la chanson, il fait ses premiers pas sur scène. De fêtes
+            locales en événements privés, les opportunités se multiplient et il
+            assure les premières parties de nombreux artistes :
           </P>
         </div>
 
@@ -113,22 +112,22 @@ export default function BiographiePage() {
 
         <div className="max-w-3xl">
           <P>
-            J&apos;intègre au début des années 2000 une troupe théâtrale «
-            Marnaise », avec le challenge d&apos;un premier rôle dans la pièce «
-            Adrienne Lecouvreur, son charme immortel », où j&apos;incarne le
-            Comte de Saxe, qui séduit l&apos;héroïne, célèbre tragédienne du
+            Au début des années 2000, il rejoint une troupe théâtrale marnaise
+            et relève le défi d&apos;un premier rôle dans la pièce « Adrienne
+            Lecouvreur, son charme immortel », où il incarne le Comte de Saxe,
+            séducteur de l&apos;héroïne, célèbre tragédienne du
             XVIII&nbsp;siècle.
           </P>
           <P>
-            Durant 4 ans et demi, je me forme aux côtés de Youri Capello
-            (artiste de la maison Barclay), avec qui je travaille
+            Durant quatre ans et demi, il se forme aux côtés de Youri Capello
+            (artiste de la maison Barclay), avec qui il travaille
             l&apos;interprétation, l&apos;expression scénique, la technicité, les
-            nuances et le caractère vocal, afin d&apos;aller chercher au plus
-            profond de soi.
+            nuances et le caractère vocal, pour aller chercher au plus profond
+            de lui-même.
           </P>
           <P>
-            En 2008, je sors mon premier album… D&apos;autres singles verront le
-            jour… Ma discographie prend forme.
+            En 2008 paraît son premier album. D&apos;autres singles suivront, et
+            sa discographie prend forme.
           </P>
         </div>
 
@@ -159,24 +158,24 @@ export default function BiographiePage() {
 
         <div className="max-w-3xl">
           <P>
-            Allant de nombreux galas en collaborations diverses, et passant par
-            la promotion auprès de la TV (IDF.1), je décide de structurer plus
-            largement mon activité d&apos;artiste-chanteur en me formant à
-            l&apos;univers de l&apos;industrie musicale, devenant ainsi
-            sociétaire auprès de la SPPF / ADAMI-SPEDIDAM (producteur musical
-            indépendant et droits d&apos;interprète).
+            Des galas aux collaborations les plus diverses, en passant par la
+            promotion télévisée (IDF.1), il choisit de structurer plus largement
+            son activité d&apos;artiste-chanteur en se formant à l&apos;univers
+            de l&apos;industrie musicale. Il devient ainsi sociétaire de la SPPF
+            et de l&apos;ADAMI-SPEDIDAM (producteur musical indépendant et droits
+            d&apos;interprète).
           </P>
           <P>
-            Grâce à la sortie du single « Insomnies » en août 2023, je fais mon
-            entrée dans la « grande maison » SACEM.
+            La sortie du single « Insomnies », en août 2023, lui ouvre les
+            portes de la « grande maison » : la SACEM.
           </P>
           <P>
-            Mi-mars 2024, au Luxembourg, j&apos;intègre une Master-Class
-            chant-interprétation orchestrée par Monsieur Michel Jonasz.
+            Mi-mars 2024, au Luxembourg, il intègre une master-class de chant et
+            d&apos;interprétation orchestrée par Michel Jonasz.
           </P>
           <P>
-            Depuis 2021, je travaille avec les Productions Freddy Hanouna qui
-            m&apos;apportent soutien et conseils, et m&apos;accompagnent sur mes
+            Depuis 2021, il collabore avec les Productions Freddy Hanouna, qui
+            lui apportent soutien et conseils et l&apos;accompagnent sur ses
             tournées et galas dans les Hauts-de-France, où les dates
             s&apos;enchaînent au son des années 60&apos;s, 70&apos;s et 80 !
           </P>
