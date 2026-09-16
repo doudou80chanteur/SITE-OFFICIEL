@@ -1,0 +1,188 @@
+
+> david-swann-site@0.1.0 dev
+> cross-env NODE_OPTIONS=--max-old-space-size=8192 next dev -H 127.0.0.1 -p 3000
+
+  ▲ Next.js 14.2.35
+  - Local:        http://127.0.0.1:3000
+  - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 8.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 23.1s (2053 modules)
+ GET / 200 in 12855ms
+ GET / 200 in 62ms
+ GET / 200 in 56ms
+ ○ Compiling /biographie ...
+ ✓ Compiled /biographie in 634ms (2045 modules)
+ ○ Compiling /spectacles ...
+ ✓ Compiled /spectacles in 3.3s (2050 modules)
+ ○ Compiling /news ...
+ ✓ Compiled /news in 947ms (2052 modules)
+ ○ Compiling /appearances ...
+ ✓ Compiled /appearances in 996ms (2056 modules)
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 1474ms (2063 modules)
+ ✓ Compiled in 2.6s (2067 modules)
+ GET /spectacles 200 in 1226ms
+ GET /spectacles 200 in 72ms
+ ✓ Compiled in 623ms (2067 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 885ms (2056 modules)
+ GET /photos/live-tour-80-veste-blanche-tshirt-satine.png 404 in 1101ms
+ GET /spectacles 200 in 41ms
+ GET /photos/live-tour-80-veste-blanche-tshirt-satine.png 404 in 28ms
+ GET /spectacles 200 in 40ms
+ GET /spectacles 200 in 38ms
+ ✓ Compiled in 622ms (2067 modules)
+ ✓ Compiled /_not-found in 227ms (2056 modules)
+ GET /photos/live-tour-80-veste-blanche-tshirt-satine-visage-net.png 404 in 381ms
+ GET /spectacles 200 in 61ms
+ GET /spectacles 200 in 52ms
+ ✓ Compiled in 550ms (2067 modules)
+ ✓ Compiled /_not-found in 226ms (2056 modules)
+ GET /photos/live-tour-80-photo-originale-satin-blanc.png 404 in 336ms
+ GET /spectacles 200 in 67ms
+ GET /spectacles 200 in 92ms
+ ✓ Compiled in 631ms (2067 modules)
+ ✓ Compiled /_not-found in 212ms (2056 modules)
+ GET /photos/soleil-80-tshirt-satine.png 404 in 302ms
+ GET /spectacles 200 in 58ms
+ GET /spectacles 200 in 69ms
+ ○ Compiling /music ...
+ ✓ Compiled /music in 758ms (2055 modules)
+ ✓ Compiled in 1135ms (2069 modules)
+ GET /music 200 in 162ms
+ GET /music 200 in 75ms
+ GET /music 200 in 61ms
+ ✓ Compiled in 561ms (2069 modules)
+ ✓ Compiled in 430ms (2069 modules)
+ GET /music 200 in 144ms
+ ✓ Compiled in 423ms (2069 modules)
+ GET /music 200 in 107ms
+ ✓ Compiled in 345ms (2069 modules)
+ GET /music 200 in 72ms
+ ✓ Compiled in 528ms (2069 modules)
+ GET /music 200 in 75ms
+ GET /music 200 in 38ms
+ ✓ Compiled in 419ms (2069 modules)
+ GET /music 200 in 54ms
+ ✓ Compiled in 356ms (2069 modules)
+ GET /music 200 in 71ms
+ ✓ Compiled in 373ms (2069 modules)
+ GET /music 200 in 48ms
+ ✓ Compiled in 527ms (2069 modules)
+ GET /music 200 in 59ms
+ ✓ Compiled in 332ms (2069 modules)
+ GET /music 200 in 65ms
+ ✓ Compiled in 722ms (2069 modules)
+ GET /music 200 in 116ms
+ ✓ Compiled in 544ms (2069 modules)
+ GET /music 200 in 127ms
+ ✓ Compiled in 517ms (2069 modules)
+ GET /music 200 in 109ms
+ ✓ Compiled in 362ms (2069 modules)
+ GET /music 200 in 104ms
+ ✓ Compiled /news in 215ms (1044 modules)
+ ✓ Compiled /contact in 412ms (1049 modules)
+ ✓ Compiled /appearances in 374ms (669 modules)
+ ✓ Compiled in 684ms (1693 modules)
+ GET /appearances 200 in 145ms
+ ○ Compiling /appearances/[slug] ...
+ ✓ Compiled /appearances/[slug] in 572ms (1686 modules)
+ ✓ Compiled in 508ms (1697 modules)
+ GET /appearances 200 in 118ms
+ ✓ Compiled in 541ms (1697 modules)
+ GET /appearances 200 in 108ms
+ ✓ Compiled in 562ms (1697 modules)
+ GET /appearances 200 in 73ms
+ ✓ Compiled in 445ms (1697 modules)
+ GET /appearances 200 in 78ms
+ ✓ Compiled in 557ms (1697 modules)
+ ✓ Compiled in 388ms (1697 modules)
+ GET /appearances 200 in 82ms
+ GET /appearances/signy-le-petit-2026-12-08 200 in 41ms
+ ✓ Compiled in 542ms (1697 modules)
+ GET /appearances 200 in 57ms
+ ✓ Compiled in 716ms (1697 modules)
+ GET /appearances 200 in 72ms
+ ✓ Compiled in 625ms (1697 modules)
+ GET /appearances 200 in 84ms
+ GET /appearances/pontpoint-2027-02-26 200 in 55ms
+ ✓ Compiled in 544ms (1697 modules)
+ GET /appearances 200 in 78ms
+ ✓ Compiled in 508ms (1697 modules)
+ GET /appearances 200 in 65ms
+ ✓ Compiled in 497ms (1697 modules)
+ GET /appearances 200 in 81ms
+ GET /appearances 200 in 47ms
+ ✓ Compiled in 736ms (1683 modules)
+ GET /appearances/poix-terron-2026-10-03 200 in 86ms
+ GET /appearances/oignies-2026-10-05 200 in 40ms
+ ✓ Compiled in 387ms (1697 modules)
+ GET /appearances/poix-terron-2026-10-03 200 in 85ms
+ GET /appearances/oignies-2026-10-05 200 in 83ms
+ GET /appearances/poix-terron-2026-10-03 200 in 68ms
+ ✓ Compiled in 390ms (1697 modules)
+ GET /appearances/poix-terron-2026-10-03 200 in 81ms
+ GET /appearances/boulogne-sur-mer-2026-09-05 200 in 71ms
+ ○ Compiling / ...
+ ✓ Compiled / in 801ms (1053 modules)
+ ✓ Compiled in 1403ms (2079 modules)
+ GET / 200 in 191ms
+ GET / 200 in 63ms
+ ✓ Compiled /music in 180ms (1054 modules)
+ ✓ Compiled in 1131ms (2080 modules)
+ GET / 200 in 156ms
+ ✓ Compiled in 396ms (2080 modules)
+ GET / 200 in 137ms
+ ✓ Compiled in 565ms (2080 modules)
+ GET / 200 in 125ms
+ ✓ Compiled in 582ms (2080 modules)
+ GET / 200 in 150ms
+ ✓ Compiled in 618ms (2080 modules)
+ GET / 200 in 125ms
+ ✓ Compiled in 667ms (2080 modules)
+ GET / 200 in 91ms
+ GET / 200 in 101ms
+ ✓ Compiled in 624ms (2080 modules)
+ GET / 200 in 152ms
+ ✓ Compiled in 682ms (2080 modules)
+ GET / 200 in 136ms
+ ✓ Compiled in 554ms (2080 modules)
+ GET / 200 in 62ms
+ ✓ Compiled /spectacles in 301ms (1055 modules)
+ GET /spectacles 200 in 71ms
+ GET /spectacles 200 in 68ms
+ ✓ Compiled in 564ms (2078 modules)
+ ✓ Compiled /_not-found in 451ms (2081 modules)
+ GET /photos/soleil-80-tshirt-satine-bleu-lagon.png 404 in 526ms
+ GET /spectacles 200 in 78ms
+ GET /photos/soleil-80-tshirt-satine-bleu-lagon.png 404 in 17ms
+ GET /spectacles 200 in 76ms
+ GET /spectacles 200 in 71ms
+ GET / 200 in 1279ms
+ GET / 200 in 1239ms
+ GET / 200 in 2142ms
+ ○ Compiling /biographie ...
+ ✓ Compiled /biographie in 6.1s (1053 modules)
+ GET / 200 in 7640ms
+ ✓ Compiled in 2.2s (2078 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 980ms (2067 modules)
+ GET /music 404 in 83ms
+ GET /_next/static/css/app/layout.css?v=1789562686523 404 in 100ms
+ GET /_next/static/chunks/main-app.js?v=1789562686523 404 in 100ms
+ GET /_next/static/chunks/app/layout.js 404 in 96ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 98ms
+ GET /spectacles 404 in 59ms
+ GET /_next/static/css/app/layout.css?v=1789562691488 404 in 47ms
+ GET /_next/static/chunks/main-app.js?v=1789562691488 404 in 50ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 49ms
+ GET /_next/static/chunks/app/layout.js 404 in 47ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 3.5s (2294 modules)
+ GET /spectacles 500 in 6633ms
+ GET /spectacles 500 in 178ms
+ GET / 500 in 66ms
+[?25h

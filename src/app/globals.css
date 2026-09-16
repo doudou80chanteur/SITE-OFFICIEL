@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  /* Thème sombre (par défaut : hero / accueil) */
+  --surface-rgb: 10 10 10;
+  --content-rgb: 255 255 255;
+  --muted: #c5c5c5;
+  --line: rgba(255, 255, 255, 0.1);
+  --card: rgba(255, 255, 255, 0.04);
+}
+
+/* Thème clair éditorial (pages internes) */
+.theme-light {
+  --surface-rgb: 245 244 241;
+  --content-rgb: 23 23 23;
+  --muted: #5b5855;
+  --line: rgba(0, 0, 0, 0.12);
+  --card: rgba(0, 0, 0, 0.035);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink text-bone font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  /* Titres en capitales, grotesque condensée à fort caractère (cf. §4.3) */
+  h1,
+  h2,
+  h3 {
+    @apply font-display uppercase tracking-tight;
+    line-height: 0.92;
+  }
+
+  /* Focus visible - accessibilité clavier WCAG 2.1 AA (cf. §8) */
+  :focus-visible {
+    outline: 2px solid rgb(var(--content-rgb));
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background: theme("colors.accent");
+    color: #fff;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-container px-gutter;
+  }
+
+  .eyebrow {
+    @apply font-sans text-xs font-medium uppercase tracking-[0.28em] text-muted;
+  }
+
+  /* Lien souligné discret avec l'accent (cf. §4.2) */
+  .link-accent {
+    @apply relative inline-flex items-center gap-2 text-sm font-medium uppercase tracking-widest text-content transition-opacity hover:opacity-70;
+  }
+  .link-accent::after {
+    content: "";
+    @apply absolute -bottom-1 left-0 h-px w-0 bg-accent transition-all duration-300;
+  }
+  .link-accent:hover::after {
+    @apply w-full;
+  }
+
+  .btn-listen {
+    @apply inline-flex items-center justify-center gap-2 border border-content/80 bg-card px-7 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-content backdrop-blur-sm transition-all duration-300 hover:bg-content hover:text-surface;
+  }
+}
+
+/* Respect de prefers-reduced-motion (cf. §6.7 / §8) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

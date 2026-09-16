@@ -1,0 +1,15 @@
+/node_modules
+/.next
+/out
+/build
+.DS_Store
+*.pem
+.env*
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+.gstack/
+
+# Fichiers de travail internes (non publiés)
+/Photos David Swann/
+/cahier_des_charges_site_david_swann.pdf
