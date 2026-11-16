@@ -7,7 +7,7 @@
 export const site = {
   name: "DAVID SWANN",
   // TODO: URL de production définitive
-  url: "https://davidswann.com",
+  url: "https://david-swann.com",
   description:
     "Site officiel de David Swann - albums, actualités, dates de concerts et contact.",
   // TODO: lien externe vers la boutique (hébergée séparément, hors périmètre)
