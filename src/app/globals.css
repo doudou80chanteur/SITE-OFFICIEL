@@ -15,7 +15,7 @@
 
 /* Thème clair éditorial (pages internes) */
 .theme-light {
-  --surface-rgb: 245 244 241;
+  --surface-rgb: 247 244 237;
   --content-rgb: 23 23 23;
   --muted: #5b5855;
   --line: rgba(0, 0, 0, 0.12);

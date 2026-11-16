@@ -22,7 +22,7 @@ const config: Config = {
         card: "var(--card)",
         // Fond clair éditorial (cf. §4.2)
         paper: {
-          DEFAULT: "#F5F4F1",
+          DEFAULT: "#F7F4ED",
           pure: "#FFFFFF",
         },
         // Couleurs de fumée par slide (cf. §6.5 du cahier des charges)
