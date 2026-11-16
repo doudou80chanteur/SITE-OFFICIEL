@@ -26,8 +26,8 @@ export const shows: Show[] = [
     description:
       "Tous les tubes légendaires qui ont enflammé les pistes de danse et qui résonnent encore dans nos têtes ! L'effervescence, les paillettes ! C'est le moment de faire la fête et de danser au rythme de cette décennie inoubliable !",
     color: "#FF3C9E",
-    image: "/photos/live-tour-80-photo-originale-satin-blanc.png",
-    imageAlt: "David Swann au micro pour le spectacle Live Tour 80",
+    image: "/photos/live-tour-80-base-originale-veste-blanche-tshirt-paillete.png",
+    imageAlt: "David Swann au micro, en tee-shirt noir légèrement pailleté et veste blanche satinée, pour le spectacle Live Tour 80",
     imagePosition: "50% 18%",
     videoUrl: "/videos/live-tour-80-teaser-web.mp4",
     videoTitle: "Teaser vidéo Live Tour 80",

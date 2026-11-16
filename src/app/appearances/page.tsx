@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { PageHero } from "@/components/ui/PageHero";
 import { upcomingDates, type Appearance } from "@/config/placeholder-content";
@@ -33,7 +34,191 @@ export default function AppearancesPage() {
       <PageHero eyebrow="Concerts & événements" title="Concerts" />
       <section className="container-shell py-16">
         {months.map((month) => (
-          <div key={month.key} className="mb-12 last:mb-0">
+          <div id={`agenda-${month.key}`} key={month.key} className="mb-12 scroll-mt-24 last:mb-0">
+            {month.key === "2026-10" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-novembre-2026.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée de novembre 2026 en grand"
+                >
+                  <Image
+                    src="/support/affiche-novembre-2026.png"
+                    alt="Affiche de la tournée David Swann de novembre 2026"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
+            {month.key === "2026-11" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-decembre-2026.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée de décembre 2026 en grand"
+                >
+                  <Image
+                    src="/support/affiche-decembre-2026.png"
+                    alt="Affiche de la tournée David Swann de décembre 2026"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
+            {month.key === "2027-0" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-janvier-2027.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée de janvier 2027 en grand"
+                >
+                  <Image
+                    src="/support/affiche-janvier-2027.png"
+                    alt="Affiche de la tournée David Swann de janvier 2027"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
+            {month.key === "2027-3" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-avril-2027.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée d'avril 2027 en grand"
+                >
+                  <Image
+                    src="/support/affiche-avril-2027.png"
+                    alt="Affiche de la tournée David Swann d'avril 2027"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
+            {month.key === "2027-5" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-juin-2027.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée de juin 2027 en grand"
+                >
+                  <Image
+                    src="/support/affiche-juin-2027.png"
+                    alt="Affiche de la tournée David Swann de juin 2027"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
+            {month.key === "2027-7" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-aout-2027.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée d'août 2027 en grand"
+                >
+                  <Image
+                    src="/support/affiche-aout-2027.png"
+                    alt="Affiche de la tournée David Swann d'août 2027"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
+            {month.key === "2027-8" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-septembre-2027.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée de septembre 2027 en grand"
+                >
+                  <Image
+                    src="/support/affiche-septembre-2027.png"
+                    alt="Affiche de la tournée David Swann de septembre 2027"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
+            {month.key === "2027-11" && (
+              <div className="mb-12 flex justify-center md:justify-end">
+                <a
+                  href="/support/affiche-decembre-2027.png"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block w-full max-w-sm overflow-hidden rounded-2xl border border-line bg-card p-2 shadow-lg transition hover:-translate-y-1 hover:border-accent/60"
+                  aria-label="Voir l'affiche de la tournée de décembre 2027 en grand"
+                >
+                  <Image
+                    src="/support/affiche-decembre-2027.png"
+                    alt="Affiche de la tournée David Swann de décembre 2027"
+                    width={1456}
+                    height={1092}
+                    className="h-auto w-full rounded-xl"
+                    sizes="(max-width: 768px) 100vw, 384px"
+                  />
+                  <p className="px-2 pb-1 pt-3 text-center text-xs uppercase tracking-[0.16em] text-muted transition-colors group-hover:text-accent">
+                    Cliquez pour agrandir l&apos;affiche
+                  </p>
+                </a>
+              </div>
+            )}
             <h2 className="mb-4 font-display text-xl uppercase tracking-[0.16em] text-content">
               {month.label}
             </h2>
