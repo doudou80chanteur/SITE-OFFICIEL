@@ -14,7 +14,7 @@ export function LightDecor() {
       <svg
         viewBox="0 0 600 600"
         fill="none"
-        className="absolute -right-[12%] -top-[22%] h-[70vmax] w-[70vmax] text-content opacity-[0.05]"
+        className="absolute -right-[12%] -top-[22%] h-[70vmax] w-[70vmax] text-content opacity-[0.018]"
       >
         <circle cx="300" cy="300" r="299" stroke="currentColor" strokeWidth="1" />
         <circle cx="300" cy="300" r="232" stroke="currentColor" strokeWidth="1" />
@@ -26,7 +26,7 @@ export function LightDecor() {
       <svg
         viewBox="0 0 600 600"
         fill="none"
-        className="absolute -bottom-[26%] -left-[16%] h-[55vmax] w-[55vmax] text-content opacity-[0.04]"
+        className="absolute -bottom-[26%] -left-[16%] h-[55vmax] w-[55vmax] text-content opacity-[0.015]"
       >
         <circle cx="300" cy="300" r="299" stroke="currentColor" strokeWidth="1.2" />
         <circle cx="300" cy="300" r="210" stroke="currentColor" strokeWidth="1.2" />
@@ -35,7 +35,7 @@ export function LightDecor() {
 
       {/* Halo d'accent à peine perceptible */}
       <div
-        className="absolute -right-[10%] top-[8%] h-[42vmax] w-[42vmax] rounded-full opacity-[0.05]"
+        className="absolute -right-[10%] top-[8%] h-[42vmax] w-[42vmax] rounded-full opacity-[0.025]"
         style={{
           background:
             "radial-gradient(circle, rgb(185 28 74) 0%, transparent 65%)",
