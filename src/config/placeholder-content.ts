@@ -469,6 +469,14 @@ const dates: Appearance[] = [
     note: "",
   },
   {
+    slug: "bourg-et-comin-2027-06-21",
+    city: "Bourg-et-Comin",
+    region: "02",
+    date: "2027-06-21",
+    venue: "",
+    note: "",
+  },
+  {
     slug: "friville-escarbotin-2027-06-23",
     city: "Friville-Escarbotin",
     region: "80",
